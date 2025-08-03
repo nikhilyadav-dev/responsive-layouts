@@ -1,4 +1,4 @@
-# Project 1: Responsive Grid Layout
+# Project 2: Responsive Grid Layout
 
 This project is a **responsive grid-based layout** built using only **HTML and CSS**. It's part of my layout practice series where I focus on improving my understanding of layout techniques like **CSS Grid**, **media queries**, and **responsive design** principles.
 
@@ -25,7 +25,7 @@ This project is a **responsive grid-based layout** built using only **HTML and C
 
 - Writing semantic and clean HTML structure
 - Creating dynamic grid systems with grid-template-columns
-  -Using gap effectively in layouts
+- Using gap effectively in layouts
 - Mobile-first responsive design with media queries
 - Maintaining consistent spacing and box sizing
 
