@@ -1,16 +1,21 @@
-# Project 3: Advanced CSS Grid Layout with Grid Areas
+# Project 4: Responsive Navbar and Card Layout
 
-This layout demonstrates the use of **`grid-template-areas`** to build a custom multi-section responsive layout using **HTML** and **CSS Grid**. It adapts across screen sizes using media queries.
+This project showcases a **responsive layout** built using **HTML5** and **CSS3**, designed to simulate a navbar with links and a right-side icon, followed by a set of styled information cards.
 
 ---
 
 ## Project Overview
 
-- **Grid Areas Used:** `box1`, `box2`, and `box3` are placed using custom-named grid areas
-- **Responsive Design:**
-- **Desktop (4 cols):** Wide layout with fixed areas
-- **Tablet (3 cols):** Shrinks columns and adjusts stacking
-- **Mobile (2 cols):** Boxes stack vertically
+- **Responsive Navbar**:
+
+  - Left-aligned logo and links
+  - Right-aligned circular icon
+  - Adjusts layout on smaller screens
+
+- **Card Sections**:
+  - Multiple cards stacked vertically
+  - Each card contains a circle and three lines (content placeholders)
+  - Clean spacing and padding with Flexbox
 
 ---
 
@@ -18,17 +23,18 @@ This layout demonstrates the use of **`grid-template-areas`** to build a custom 
 
 - HTML5
 - CSS3
-- CSS Grid (`grid-template-areas`)
-- Media Queries
+- Flexbox for layout
+- CSS Custom Properties (variables)
+- Media Queries for responsiveness
 
 ---
 
 ## What I Practiced
 
-- Writing semantic and clean HTML structure
-- Custom positioning using grid-template-areas
-- Creating a non-uniform grid with flexible design
-- Adapting layout structure based on device screen size
+- Flexbox layout techniques for complex navbars
+- CSS variables for maintainable color theming
+- Clean card component design
+- Media queries with nested element resizing
 
 ---
 
