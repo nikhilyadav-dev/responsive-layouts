@@ -1,0 +1,154 @@
+:root {
+  --body: #a70000;
+  --nav: #5e0808;
+  --items: #ff0000;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body);
+}
+
+/* Nav Part Styling */
+
+nav {
+  background-color: var(--nav);
+  min-height: 93px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  min-height: 64px;
+  /* min-height: 93px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 16px;
+}
+
+.left_nav {
+  /* height: 40px; */
+  height: 40px;
+  width: 488px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.logo {
+  max-width: 160px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--items);
+}
+
+.links {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  gap: 8px;
+}
+
+.link {
+  flex: 1;
+  background-color: var(--items);
+}
+
+.right_nav {
+  height: 64px;
+  width: 64px;
+  border-radius: 100%;
+  background-color: var(--items);
+}
+
+/* Main Styling */
+
+main {
+  margin: 36px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card {
+  height: 148px;
+  max-width: 1200px;
+  width: 100%;
+  background-color: #ffd8d8;
+
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_container {
+  padding: 24px;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  gap: 24px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  flex-shrink: 0;
+  border-radius: 100%;
+  background-color: var(--items);
+}
+
+.lines {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  flex: 1;
+}
+
+.line {
+  height: 24px;
+  background-color: #5e0808;
+}
+
+@media screen and (width > 1200px) {
+}
+
+@media screen and ((width < 1200px) and (width > 450px)) {
+  main {
+    margin: 33px 60px;
+  }
+}
+@media screen and (width < 600px) {
+  /* Nav Part Styling */
+  .left_nav {
+    height: 40px;
+    width: 266px;
+  }
+
+  .logo {
+    max-width: 69px;
+    background-color: var(--items);
+  }
+
+  .right_nav {
+    height: 48px;
+    width: 48px;
+  }
+
+  /* Main Styling */
+
+  main {
+    margin: 46px 29px;
+  }
+}
