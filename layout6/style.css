@@ -1,0 +1,270 @@
+:root {
+  --primary: #fff;
+  --secondary: #000;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+}
+
+.spacing {
+  padding: 0 16px;
+  margin-bottom: 32px;
+}
+
+.outer_container {
+  background-color: var(--primary);
+  max-width: 1200px;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.top_container {
+  background-color: var(--secondary);
+  width: 100%;
+  min-height: 216px;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.avta_search_container {
+  display: flex;
+  gap: 10px;
+  height: 120px;
+  padding: 10px;
+}
+
+.avta_search_container .avtar {
+  height: 100px;
+  width: 100px;
+  background-color: var(--primary);
+  border-radius: 100%;
+  flex-shrink: 0;
+}
+
+.avta_search_container .search {
+  background-color: var(--primary);
+  width: 100%;
+  height: 100%;
+  border-radius: 64px;
+}
+
+.info_containers {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.info_container {
+  width: 184px;
+  display: flex;
+  gap: 16px;
+}
+
+.square {
+  min-width: 48px;
+  min-height: 48px;
+  background-color: #ffffff;
+}
+.lines {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+.line {
+  flex: 1;
+  min-height: 12px;
+  /* width: 100%;
+  max-width: 120px; */
+  background-color: var(--primary);
+}
+
+/* Bottom Part */
+
+.bottom_container {
+  width: 100%;
+  background-color: var(--secondary);
+  min-height: 1098px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Bottom_Top_Most_Part */
+
+.top_most_container {
+  height: 100px;
+  width: 100%;
+}
+
+.user_detail_section {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user_container {
+  max-width: 344px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 12px;
+}
+
+.avtar_2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: var(--primary);
+  flex-shrink: 0;
+}
+
+.box_container {
+  height: 100%;
+  max-width: 232px;
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.big_box {
+  width: 100%;
+  min-height: 28px;
+  background-color: var(--primary);
+}
+
+.box {
+  width: 100%;
+  min-height: 8px;
+  background-color: var(--primary);
+}
+
+.small_box_container {
+  display: flex;
+  max-width: 100px;
+  min-height: 20px;
+
+  gap: 4px;
+}
+
+.small_square {
+  background-color: var(--primary);
+  height: 100%;
+  aspect-ratio: 1;
+}
+
+.horizontal_line {
+  flex: 1;
+  background-color: var(--primary);
+}
+
+.controls_container {
+  display: flex;
+  gap: 8px;
+}
+
+.control {
+  background-color: var(--primary);
+  width: 24px;
+  height: 24px;
+}
+
+/* Bottom Bottom_Most Part */
+
+.bottom_most_container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.box1 {
+  background-color: var(--primary);
+  min-height: 28px;
+  max-width: 358px;
+}
+
+.box2 {
+  width: 100%;
+  background-color: var(--primary);
+  height: 72px;
+}
+
+.box3 {
+  flex: 1;
+  background-color: var(--primary);
+}
+
+@media screen and ((width <1200px ) and (width >450px )) {
+  .avta_search_container .avtar {
+    height: 80px;
+    width: 80px;
+  }
+  .avta_search_container .search {
+    height: 80px;
+  }
+  .avtar_2 {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media screen and ((width < 450px )) {
+  .avta_search_container .avtar {
+    height: 62px;
+    width: 62px;
+  }
+  .avta_search_container .search {
+    height: 64px;
+  }
+  .avtar_2 {
+    height: 62px;
+    width: 62px;
+  }
+  /* 
+  .info_section {
+    width: 100%;
+  }
+
+  .info_containers {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .info_container {
+    width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    gap: 16px;
+  }
+  .lines {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+  } */
+
+  .info_containers {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+  .line {
+    flex: 1;
+  }
+}
