@@ -47,4 +47,4 @@ This project demonstrates a **responsive web layout** using **HTML5** and **CSS3
 
 ## License
 
-This project is for educational and personal practice purposes. Feel free to fork and improve!
+This project is for educational and personal practice purposes. Feel free to fork and improve! 
