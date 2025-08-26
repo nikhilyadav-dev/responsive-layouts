@@ -7,7 +7,7 @@ This project is a **responsive grid-based layout** built using only **HTML and C
 ## Project Overview
 
 - **Grid Structure:** 4-column layout on large screens, 2-column on tablets, and single-column on mobile.
-- **Responsive Design:** Achieved using media queries to adapt to various screen sizes.
+- **Responsive Design:** Achieved using media queries to adapt to various screen sizes. 
 - **Box Count:** 16 visually identical boxes arranged in a grid.
 
 ---
